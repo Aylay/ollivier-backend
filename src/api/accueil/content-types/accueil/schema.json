@@ -1,0 +1,153 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "singularName": "accueil",
+    "pluralName": "accueils",
+    "displayName": "accueil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageHeader": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headerTitre": {
+      "type": "string"
+    },
+    "headerSousTitre": {
+      "type": "string"
+    },
+    "headerLien": {
+      "type": "string"
+    },
+    "bloc1Titre": {
+      "type": "string"
+    },
+    "bloc1SousTitre": {
+      "type": "string"
+    },
+    "bloc1Text": {
+      "type": "text"
+    },
+    "bloc1Citation": {
+      "type": "string"
+    },
+    "bloc1Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bloc2Titre": {
+      "type": "string"
+    },
+    "bloc2Introduction": {
+      "type": "text"
+    },
+    "bloc2Prestations": {
+      "displayName": "iconeTitreTexte",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.icone-titre-texte"
+    },
+    "bloc3Citation": {
+      "type": "string"
+    },
+    "bloc4Titre": {
+      "type": "string"
+    },
+    "bloc4Introduction": {
+      "type": "string"
+    },
+    "bloc4Materiels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.icone-titre-texte"
+    },
+    "bloc5Titre": {
+      "type": "string"
+    },
+    "bloc5Introduction": {
+      "type": "string"
+    },
+    "bloc5ImagesColonne1": {
+      "displayName": "imageHeight",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.image-height"
+    },
+    "bloc5ImagesColonne2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.image-height"
+    },
+    "bloc5ImagesColonne3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.image-height"
+    },
+    "bloc5ImagesColonne4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocs.image-height"
+    },
+    "bloc6Titre": {
+      "type": "string"
+    },
+    "bloc6Introduction": {
+      "type": "string"
+    },
+    "bloc6Partenaires": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bloc7Titre": {
+      "type": "string"
+    },
+    "bloc7Introduction": {
+      "type": "string"
+    },
+    "bloc7bloc1Titre": {
+      "type": "string"
+    },
+    "bloc7bloc2Titre": {
+      "type": "string"
+    },
+    "bloc7bloc1Texte1": {
+      "type": "richtext"
+    },
+    "bloc7bloc1Texte2": {
+      "type": "richtext"
+    },
+    "bloc7bloc1Texte3": {
+      "type": "richtext"
+    },
+    "bloc7bloc2Texte1": {
+      "type": "richtext"
+    },
+    "bloc7bloc2Texte2": {
+      "type": "richtext"
+    },
+    "bloc7bloc2Texte3": {
+      "type": "richtext"
+    }
+  }
+}

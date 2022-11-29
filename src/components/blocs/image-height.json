@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocs_image_heights",
+  "info": {
+    "displayName": "imageHeight"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "hauteur": {
+      "type": "integer"
+    }
+  }
+}

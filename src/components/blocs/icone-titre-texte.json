@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocs_icone_titre_textes",
+  "info": {
+    "displayName": "iconeTitreTexte"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titre": {
+      "type": "string"
+    },
+    "texte": {
+      "type": "text"
+    }
+  }
+}
