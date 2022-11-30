@@ -35,10 +35,10 @@ module.exports = createCoreController('api::contact.contact', ({ strapi }) => ({
     }
     
     textMail += 'Son message :'
-    textMail += '<br /><br />'
+    textMail += '<br />'
     
     textMail += response.data.attributes.message
-    textMail += '<br />'
+    textMail += '<br /><br />'
 
 
     await strapi
