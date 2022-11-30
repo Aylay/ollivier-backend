@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mention",
     "pluralName": "mentions",
-    "displayName": "mention"
+    "displayName": "mention",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,13 @@
     },
     "contenu": {
       "type": "richtext"
+    },
+    "imageHeader": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
