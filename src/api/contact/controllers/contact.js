@@ -26,8 +26,8 @@ module.exports = createCoreController('api::contact.contact', ({ strapi }) => ({
     }
     textMail += '<br />'
     
-    if (response.data.attributes.telephone.objet > 0) {
-      textMail += 'Son object :'
+    if (response.data.attributes.objet > 0) {
+      textMail += 'Son objet :'
       textMail += '<br />'
       
       textMail += response.data.attributes.objet
