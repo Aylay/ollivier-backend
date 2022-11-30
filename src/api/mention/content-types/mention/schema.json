@@ -19,11 +19,17 @@
       "type": "richtext"
     },
     "imageHeader": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.meta"
     }
   }
 }

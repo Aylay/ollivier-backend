@@ -148,6 +148,12 @@
     },
     "bloc7bloc2Texte3": {
       "type": "richtext"
+    },
+    "meta": {
+      "displayName": "meta",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.meta"
     }
   }
 }

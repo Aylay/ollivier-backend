@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_metas",
+  "info": {
+    "displayName": "meta"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
