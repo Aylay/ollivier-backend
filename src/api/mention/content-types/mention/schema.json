@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "mentions",
+  "info": {
+    "singularName": "mention",
+    "pluralName": "mentions",
+    "displayName": "mention"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "contenu": {
+      "type": "richtext"
+    }
+  }
+}
