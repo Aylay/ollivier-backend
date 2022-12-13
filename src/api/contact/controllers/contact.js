@@ -10,7 +10,7 @@ module.exports = createCoreController('api::contact.contact', ({ strapi }) => ({
   async create(ctx) {
     const response = await super.create(ctx);
 
-    const mailList = 'luk.attali@gmail.com'
+    const mailList = 'carrosserie.ollivier@orange.fr'
     let textMail = 'Bonjour'
     textMail += '<br /><br />'
     textMail += 'Cette personne a fait une demande de contact :<br /><br />'
